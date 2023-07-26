@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <style>
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <%-include('./partials/nav.ejs') %>
+    <h1>Home Page</h1>
+    <h2>Welcome <%= user %></h2>
+    <h5>I am a <%= role %></h5>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio
+      porro eum odit, atque doloremque voluptate obcaecati eius iusto id quasi
+      soluta nobis, ex est. Est dolorum veniam voluptatum expedita?
+    </p>
+  </body>
+</html>
