@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const meals = require("./data/meals");
+const meals = require("./models/meals");
 
 // app.get, app.delete, app.pstch, app.put, app.set,app.listen,
 //status code 200
